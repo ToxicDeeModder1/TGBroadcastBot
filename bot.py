@@ -16,7 +16,7 @@ default_start_msg = """To use this bot, add the bot in your channel aur send /ad
 async def handler(event):
     entity = await bot.get_entity(event.chat_id)
     first_name = entity.first_name
-    button = [[(Button.url("Repo Link", "https://github.com/leeveshkamboj/TGBroadcastBot"))]] 
+    button = [[(Button.url("Repo Link", "https://github.com/ToxicDeeModder1/TGBroadcastBot"))]] 
     if Config.start_msg:
         start_msg = Config.start_msg
     else:
